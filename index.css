@@ -1,0 +1,153 @@
+body{
+    background-color:beige;
+}
+h1{
+    background-color: indianred;
+    color: white;
+    font-family: sans-serif;
+    font-size: 300%;
+    text-align: center;
+    border: 2px solid white;
+}
+p{
+    color: plum;
+    font-family: cursive;
+}
+.logo{
+    padding-top: 10px;
+    text-align: center;
+    width:250px;
+    height:150px;
+    float: left;
+}
+img {
+    width:100px;
+    height:25px;
+}
+.left-menu {
+    width:800px;
+    height:50px;
+    float:left;
+}
+.right-menu {
+    width:310px;
+    height:50px;
+    float:right;
+}
+.top {
+    height: 6px;
+    background-color: olivedrab;
+}
+.middle {
+    height: 4px;
+    background-color:antiquewhite;
+}
+.bottom {
+    height: 4px
+    background-color:orange;
+}
+.bottom-line {
+    height: 1px;
+    background-color: darkorange;
+}
+.images img {
+    width:1327px;
+    height:500px;
+}
+td {
+    text-align: center;
+    font-family: helvetica;
+    font-weight: bold;
+    font-size: 150%;
+}
+td img {
+    width: 200px;
+    height: 200px;
+}
+.black-divider {
+    background-color: palegreen;
+    width: 872px;
+    height:8px;
+    margin: auto;
+}
+.icons {
+    text-align: center;
+    font-size:150%;
+    font-family: monospace;
+    font-weight: bold;
+}
+.icons table {
+    margin: auto;
+}
+.icons table td img{
+    width: 30px;
+    height: 30px;
+}
+.company-section-list ul {
+    list-style-type: none;
+    padding: 2px;
+    float: left;
+}
+.container{
+    width:100%;
+    height:100%;
+}
+.navbar {
+    overflow:hidden;
+    background-color: cadetblue;
+    font-family: monospace;
+}
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+.dropdown .dropbtn{
+    font-size:20px;
+    border:none;
+    outline:none;
+    color:black;
+    padding:14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    font-weight: bold;
+    margin: 0;
+}
+.navbar .dropdown:hover .dropbtn{
+    background-color: indianred;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: indianred;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+    font-size:16px;
+}
+.dropdown-content a:hover {
+  background-color: darkred;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.search {
+    font-family:monospace;
+    font-size:20px;
+    font-weight:bold;
+    text-align: center;
+    padding: 14px 16px;
+}
+.search a{
+    text-decoration: none;
+    background-color: transparent;
+    color:black;
+}

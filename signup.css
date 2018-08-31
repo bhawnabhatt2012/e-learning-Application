@@ -1,0 +1,103 @@
+body {
+    background-color: black;
+    background-size:cover;
+    font-family: monospace;
+    font-weight: bold;
+}
+.logo {
+    background-color: aliceblue;
+    margin: auto;
+    width:300px;
+}
+.logo img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 50px;
+}
+.signup-form {
+    width:314px;
+    margin:auto;
+    background-color: gainsboro;
+    text-align: center;
+    font-family: monospace;
+    font-size:16px;
+    font-weight: bold;
+    box-shadow: 0 15px 40px;
+}
+input[type=text] {
+    padding: 12px 20px;
+    margin: 0 auto;
+    display: block;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=email] {
+    padding: 12px 20px;
+    margin: 0 auto;
+    display: block;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=password] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.signup-form table {
+    background-color: gainsboro;
+}
+.signup-form table td {
+    font-family: monospace;
+    font-size: 120%;
+    font-weight: bold;
+}
+.signup-form button {
+    display: block;
+    margin: 0 auto;
+    background-color: indianred;
+    border:1px solid orange;
+    padding:15px 32px;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: monospace;
+    border-radius: 20%;
+}
+input[type="checkbox"]{
+    font-family: monospace;
+}
+.border {
+    display: block;
+    margin:0 auto;
+    padding:0 515px;
+}
+.top{
+    background-color:black;
+    width: 314px;
+    height:10px;
+}
+.middle {
+    background-color: black;
+    width: 314px;
+    height:8px;
+}
+.bottom {
+    background-color: black;
+    width:314px;
+    height: 4px;
+}
+.bottomline {
+    background-color: black;
+    width: 314px;
+    height: 1px;
+    
+}
